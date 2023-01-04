@@ -1,0 +1,93 @@
+
+.in_head{
+    color: aliceblue;
+    background-color: black;
+    padding: 10px;
+}
+.in_bottom{ 
+    margin: 30px;
+    color: black;
+
+}
+.threeway{
+    padding-top: 20px;
+    display: flex;
+    
+}
+.Cone{
+    flex: 0.3px;
+    padding-right: 20px;
+
+    
+}
+.Cone>div{
+    cursor: pointer;
+    color: antiquewhite;
+    border: 1px solid rgb(171, 170, 170);
+    display: flex;
+}
+.Cone>div>i{
+   font-size: xx-large;
+    flex: 0.2;
+    margin-top:15px;
+    margin-left: 30px;
+    color: black;
+
+}
+.Cone>div>h1{
+    flex:0.7;
+    color: black;
+}
+
+
+.Ctwo{
+    padding-right: 20px;
+    flex: 0.3px;
+    
+}
+.Ctwo>div{
+    cursor: pointer;
+    color: rgb(8, 8, 8);
+    border: 1px solid rgb(171, 170, 170);
+    display: flex;
+}
+.Ctwo>div:hover{
+    background-color: coral;
+    
+}
+.Cone>div:hover{
+    background-color: coral;
+}
+.Cthree>div:hover{
+    background-color: coral;
+}
+.Ctwo>div>i{
+    font-size: xx-large;
+    flex: 0.2;
+    margin-top:15px;
+    margin-left: 30px;
+        color: black;
+}
+.Ctwo>div>h1{
+    flex:0.7;
+}
+.Cthree{
+    padding-right: 20px;
+    flex: 0.3px;
+    
+}
+.Cthree>div{
+    cursor: pointer;
+    color: rgb(6, 6, 6);
+    border: 1px solid rgb(171, 170, 170);
+    display: flex;
+}
+.Cthree>div>i{
+    font-size: xx-large;
+    flex: 0.2;
+    margin-top:15px;
+    margin-left: 30px;    color: black;
+}
+.Cthree>div>h1{
+    flex:0.7;
+}

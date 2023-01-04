@@ -1,0 +1,113 @@
+.jobs_header{
+    color: aliceblue;
+    background-color: black;
+    padding: 10px;
+}
+.jobs_bottom{
+    color: black;
+}
+.jobs_bottom>h4{
+    margin: 20px;
+}
+.button_submit{
+    color: black;
+   margin: 20px;
+}.button_submit>button{
+    
+   height: 40px;
+   border-radius: 3px;
+   background-color: orange;
+   cursor: pointer;
+}
+.button_submit>button:hover{
+    background-color: rgb(122, 120, 117);
+    color: rgb(251, 163, 0);
+    font-weight: bold;
+
+}
+
+
+.job_container{
+    
+    background-color: rgb(224, 224, 224);
+    display: flex;
+}
+.title{
+    flex: 0.4px;
+    padding: 30px;
+    margin-left: 100px;
+
+
+}
+.title>input{
+    width: 80%;
+    height: 100%;
+}
+
+.location{
+    flex:0.5px;
+    padding: 30px;
+   
+}
+.location>input{
+    width: 80%;
+    height: 100%;
+
+}
+.search_btn{
+    flex: 0.1px;
+    padding: 30px;
+}
+.search_btn>button{
+    cursor: pointer;
+    background-color: orange;
+    width: 40%;
+    height: 130%;
+
+
+}
+.search_btn>button:hover{
+    background-color: rgb(122, 120, 117);
+    color: rgb(251, 163, 0);
+    font-weight: bold;
+}
+.jobs_jobs{
+    margin: 20px;    
+}
+.j1{
+    display: flex;
+}
+.j{
+    flex: 0.5px;
+}
+.b1{
+    cursor: pointer;
+    background-color: orange;
+    width: 40%;
+    border-radius: 3px;
+    flex:0.1;
+    margin-top: 20px;
+    margin-right: 1000px;
+    height: 130%;
+}
+.j2{
+    display: flex;
+}
+.j3{
+    display: flex;
+}
+.j4{
+    display: flex;
+}
+.j5{
+    display: flex;
+}
+.j6{
+    display: flex;
+}
+
+
+.box{
+    background-color: gainsboro;
+margin: 20px;
+}

@@ -1,0 +1,28 @@
+.about{
+    
+    color: black;
+}
+.about_head{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    margin-bottom: 2px;
+   
+
+}
+.about_bottom{
+    margin:20px;
+    display: flex;
+}
+.bottom_left{
+    flex: 0.5;
+}
+.bottom_right{
+    flex:0.5
+    
+}
+.bottom_right>p{
+    font-weight:400;
+    font-size: larger;
+    padding-left: 20px;
+}

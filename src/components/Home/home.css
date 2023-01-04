@@ -1,0 +1,61 @@
+.container{
+    margin-top: 89px;
+}
+.homes{
+background-color: aliceblue;
+color: black;
+display: flex;
+
+}
+.home_left{
+    flex: 0.5;
+}
+.home_right{
+    
+
+    flex: 0.5;
+    display:flex;
+    flex-direction: column;
+}
+.home_up{
+    
+    flex: 0.5px;
+    background-image:url(./home4.jpg)
+
+}
+.home_up>h1{
+    background-color: rgba(240, 248, 255, 0.832);
+    text-align: center;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.readmore1{
+    align-items: center;
+    margin-left: 220px;
+    
+    width: 90px;
+    height: 35px;
+    background-color: rgb(255, 123, 0);
+    color: black;
+}
+.home_up>h4{
+    margin: 20px;
+    color: rgb(255, 255, 255);
+
+}
+.home_down>h1{
+    background-color: rgba(240, 248, 255, 0.832);
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+}
+.home_down>h4{
+    margin: 20px;
+}
+.home_down{
+    color: rgb(255, 255, 255);
+    align-items: center;
+    flex: 0.5px;
+background-image: url(./home3.jpg);}
